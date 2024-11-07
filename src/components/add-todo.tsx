@@ -18,7 +18,7 @@ export function AddTodo() {
 
     return (
         <form onSubmit={handleFormSubmit}>
-            <input type="text" placeholder="Write your todo" value={todo}
+            <input type="text" placeholder="Write your Task" value={todo}
                    onChange={(e) => setTodo(e.target.value)} />
             <button type="submit">ADD</button>
         </form>
